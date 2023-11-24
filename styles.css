@@ -1,3 +1,22 @@
 * {
     box-sizing: border-box;
 }
+
+#menu * {
+    list-style: none;
+    text-decoration: none;
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    background-color: salmon;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px 20px 10px 0;
+    width: 100%;
+}
